@@ -36,6 +36,11 @@ body {
     background: #EEE;
 }
 
+input,
+button {
+    outline: none;
+}
+
 .globalHeader {
     margin: 20px;
 }
@@ -61,18 +66,17 @@ body {
 
 .searchForm>input {
     width: 100%;
-    margin-right: 10px;
     height: 40px;
     padding: 0 10px;
-    border: 1px solid #DDD;
-    border-radius: 4px;
+    border: none;
+    border-radius: 22px 0px 0px 22px;
 }
 
 .searchForm>button {
     white-space: nowrap;
     padding: 0 28px;
     border: none;
-    border-radius: 4px;
+    border-radius: 0px 22px 22px 0px;
     background: #0282B9;
     color: white;
     font-size: 16px;
